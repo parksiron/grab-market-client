@@ -11,10 +11,10 @@ function App() {
         <Route exact={true} path={"/"}>
           <MainPage />
         </Route>
-        <Route exact={true} Path="/products/:id">
+        <Route exact={true} path="/products/:id">
           <ProductPage />
         </Route>
-        <Route exact={true} Path="/upload">
+        <Route exact={true} path="/upload">
           <UploadPage />
         </Route>
       </Switch>
